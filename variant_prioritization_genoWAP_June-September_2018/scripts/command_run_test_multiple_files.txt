@@ -1,0 +1,14 @@
+python submit_GenoWAP_pipeline.py \
+-i /neurospin/brainomics/2018_variant_prioritization/GWAS_data/STAP/UKB_not_British/ \
+-o /neurospin/brainomics/2018_variant_prioritization/prioritized_data/ \
+-ts /neurospin/brainomics/2018_variant_prioritization/GenoSuite/GenoSkyline_Plus_127_specific_tissues_BedGraph/Brain_Cingulate_Gyrus.bedGraph
+
+python submit_GenoWAP_pipeline.py \
+-i /neurospin/brainomics/2018_variant_prioritization/GWAS_data/STAP/UKB_British/ \
+-o /neurospin/brainomics/2018_variant_prioritization/prioritized_data/STAP/ \
+-ts /neurospin/brainomics/2018_variant_prioritization/GenoSuite/GenoSkyline_9_general_tissues_BedGraph/
+
+Brain.bedGraphpython submit_GenoWAP_pipeline.py \
+-i /neurospin/brainomics/2018_variant_prioritization/GWAS_data/ST/ \
+-o /neurospin/brainomics/2018_variant_prioritization/prioritized_data/ \
+-ts /neurospin/brainomics/2018_variant_prioritization/GenoSuite/GenoSkyline_Plus_127_specific_tissues_BedGraph/Fetal_Brain_Male.bedGraph

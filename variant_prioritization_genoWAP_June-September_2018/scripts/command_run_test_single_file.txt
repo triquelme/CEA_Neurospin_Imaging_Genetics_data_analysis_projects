@@ -1,0 +1,4 @@
+python run_GenoWAP_pipeline.py \
+-i /neurospin/brainomics/2018_variant_prioritization/GWAS_data/STAP/UKB_British/covar_SexAgeMRI_10PCSArray_19k.pits_R_avg_depth_STAP.R_avg_depth.pval \
+-o /neurospin/brainomics/2018_variant_prioritization/prioritized_data/ \
+-ts /neurospin/brainomics/2018_variant_prioritization/GenoSuite/GenoSkyline_Plus_127_specific_tissues_BedGraph/Brain_Cingulate_Gyrus.bedGraph

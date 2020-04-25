@@ -1,0 +1,4 @@
+When one of the 9 GenoSkyline general tissue annotation Bed file's size > 350 Mo,
+
+extractScore.py will require more than 16Go RAM 
+
